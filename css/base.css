@@ -1,0 +1,102 @@
+:root {
+    /*Cores */
+    --color-background: #f9fafb;
+    --color-surface: #ffffff;
+    --color-border: #e5e7eb;
+
+    --color-text: #111827;
+    --color-muted: #6b7280;
+    --color-placeholder: #9ca3af;
+    --color-error: #ef4444;
+    --color-success: #10b981;
+
+    --color-primary-base: #7B2828;
+    --color-primary-100: #F1D0D0;
+    --color-primary-200: #E59E9E;
+    --color-primary-300: #DE6565;
+    --color-primary-400: #B33E3E;
+    --color-primary-500: #7B2828;
+    --color-primary-600: #471414;
+    --color-primary-700: #250707;
+
+    --color-secundary-base: #287B7B;
+    --color-secundary-100: #59F8F8;
+    --color-secundary-200: #48CDCD;
+    --color-secundary-300: #38A3A3;
+    --color-secundary-400: #287B7B;
+    --color-secundary-500: #195555;
+    --color-secundary-600: #0B3232;
+    --color-secundary-700: #021414;
+
+    --color-grey-base: ;
+    --color-grey-100: #DAD7D7;
+    --color-grey-200: #B5AFAF;
+    --color-grey-300: #948888;
+    --color-grey-400: #6F6464;
+    --color-grey-500: #4B4343;
+    --color-grey-600: #292424;
+    --color-grey-700: #131010;
+
+    /* 🖋️ Tipografia */
+    --font-family-base: 'Anek Latin', sans-serif;
+
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.125rem; /* 18px */
+    --font-size-xl: 1.25rem; /* 20px */
+    --font-size-2xl: 1.5rem; /* 24px */
+    --font-size-3xl: 1.875rem; /* 30px */
+    --font-size-4xl: 2rem; /* 32px */
+    --font-size-5xl: 4rem; /* 64px */
+   
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+
+    /* 📏 Espaçamentos */
+    --spacing-xxs: 0.25rem;
+    /* 4px */
+    --spacing-xs: 0.5rem;
+    /* 8px */
+    --spacing-sm: 0.75rem;
+    /* 12px */
+    --spacing-md: 1rem;
+    /* 16px */
+    --spacing-lg: 1.5rem;
+    /* 24px */
+    --spacing-xl: 2rem;
+    /* 32px */
+    --spacing-2xl: 3rem;
+    /* 48px */
+
+    /* 🧱 Bordas e radius */
+    --border-radius-sm: 0.25rem;
+    /* 4px */
+    --border-radius-md: 0.5rem;
+    /* 8px */
+    --border-radius-lg: 0.75rem;
+    /* 12px */
+    --border-radius-full: 9999px;
+
+    --border-width: 1px;
+    --border-style: solid;
+
+    /* 🌫️ Sombreamentos */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+    /* 🌀 Transições */
+    --transition-fast: 150ms ease-in-out;
+    --transition-normal: 300ms ease-in-out;
+    --transition-slow: 500ms ease-in-out;
+
+    /* 📱 Breakpoints */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+}

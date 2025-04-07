@@ -50,3 +50,24 @@ main {
     max-width: 700px;
     height: 100%;
 }
+
+.text-container .text {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-normal);
+    font-style: normal;
+    color: var(--color-secundary-100);
+}
+
+.text-container h1 {
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-5xl);
+    color: var(--color-secundary-100);
+}
+.text-container h2 {
+    font-size: var(--font-size-4xl);
+    color: var(--color-secundary-100);
+}
+
+.text-container .social-media .text{  
+    font-size: var(--font-size-xs);
+}
